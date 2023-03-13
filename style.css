@@ -56,7 +56,18 @@ section{
     border-radius: 10px;
     font-weight: 700;
 }
-.namediv{
+/*.namediv{
     padding-left: 30%;
     padding-top: 10px;
+}*/
+.mid-banner{
+    padding-top: 100px;
+    padding-left: 0px;
+}
+.mid-banner{
+    background-color: rgb(252, 252, 252);
+    background-image: url("developer-portfolio\dream-bg.png");
+    background-repeat: repeat;
+    /* Commnet it */
+    /*border: 10px solid blue; /*For veiwing [plz commnet after view]*/
 }
