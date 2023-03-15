@@ -7,13 +7,11 @@ body{
     background-color: #ffffff;
     border-radius: 0;
     box-shadow: none;
-    
-    transition: all 0.5s ease-in-out;
 
+    transition: all 0.5s ease-in-out;
 }
 h1{
     font-size: 50px;
-
 }
 h2{
     font-size: 40px;
@@ -85,4 +83,13 @@ section{
     margin-left: 5%;
     /*padding-left: 2%;*/
 /*}*/
+
+.experience-area h2{
+    /*padding-left: 650px;
+    padding-top: 100px;*/
+    
+}
+.extra-bold{
+    font-weight: 900px;
+}
 
