@@ -18,6 +18,9 @@ h1{
 h2{
     font-size: 40px;
 }
+p{
+    color: dimgray;
+}
 .name-highlight{
     color: orange;
 }
@@ -67,14 +70,14 @@ section{
     padding-top: 100px;
     padding-left: 0px;
     height: 500px;
-}
-.mid-banner{
     background-color: rgb(252, 252, 252);
-    background-image: url("developer-portfolio\dream-bg.png");
+    background-image: url("developer-portfolio/dream-bg.png");
     background-repeat: no-repeat;
+    background-position: right;
     /* Commnet it */
     /*border: 10px solid blue; /*For veiwing [plz commnet after view]*/
-}/*
+}
+/*
 .half-width2{
     float: left;
     width: 40%; /*don't use 50%*/
@@ -82,3 +85,4 @@ section{
     margin-left: 5%;
     /*padding-left: 2%;*/
 /*}*/
+
