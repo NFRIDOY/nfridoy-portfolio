@@ -48,6 +48,9 @@ section{
     padding-top: 10px;
     
 }
+#profile-img{ /* doesn't work*/
+    border-image-width: 500px;
+}
 .half-width p{
     padding-bottom: 10px;
 }
@@ -83,13 +86,32 @@ section{
     margin-left: 5%;
     /*padding-left: 2%;*/
 /*}*/
-
-.experience-area h2{
-    /*padding-left: 650px;
-    padding-top: 100px;*/
-    
+.experience-area{
+    background-image: url("developer-portfolio/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
 }
 .extra-bold{
     font-weight: 900px;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px grey; /* Right Down */
+    border-radius: 15px;
+    height: 60%;
+
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+
+}
+#jonior{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, rgb(0, 225, 255));
+    border-image-slice: 1;
+}
+.footer-div{
+    text-align: center;
 }
 
