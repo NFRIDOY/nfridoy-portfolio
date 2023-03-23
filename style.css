@@ -12,6 +12,7 @@ body{
 }
 h1{
     font-size: 50px;
+    margin: 0px;
 }
 h2{
     font-size: 40px;
@@ -22,7 +23,11 @@ p{
 .name-highlight{
     color: orange;
 }
-
+header {
+    /* background-color: #ffffff; */
+    background-image: linear-gradient(blue, white);
+    margin: 0px;
+}
 .top-banner{
     background-color: rgb(252, 252, 252);
     background-image: url("developer-portfolio/top-banner.png");
