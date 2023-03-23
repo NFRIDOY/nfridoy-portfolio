@@ -50,11 +50,15 @@ section{
 }
 .half-width{
     float: left;
-    width: 40%; /*don't use 50%*/
-    height: 40%;
-    margin-left: 7%;
-    /* padding-left: 2%; */
+    width: 41%; /*don't use 50%*/
+    /* height: 40%; */
+    margin-left: 5%;
+    padding-left: 2%; 
 }
+.text1 {
+    height: 40%;
+}
+
 .half-width img{
     color: #f5f5f5;
     width: 80%;
@@ -114,7 +118,7 @@ section{
 .single-experience{
     box-shadow: 10px 10px 40px grey; /* Right Down */
     border-radius: 15px;
-    height: 80%;
+    height: 80% !important;
 
 }
 #full-stack{
