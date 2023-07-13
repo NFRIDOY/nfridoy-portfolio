@@ -30,13 +30,13 @@ a {
 nav {
     display: flex;
     padding: 20px 200px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
-nav > ul > li,
+#menuList li,
 .btn-hireMe {
     display: inline;
-    margin-right: 50px;
+    margin-left:  50px;  
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -46,8 +46,17 @@ nav > ul > li,
 .btn-hireMe a {
     color: white;
 }
+.btn-hireMe {
+    color: white;
+    margin-left: -2px;
+}
 nav > ul {
-    margin-left: auto;
+
+}
+#menuList {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 .btn-hireMe {
     background-color: var(--org);
@@ -101,6 +110,13 @@ nav > ul {
 }
 .BannerImg {
     
+}
+.proImage {
+    height: 720px;
+}
+.proImage > img {
+    height: 100%;
+    width: auto;
 }
 .titleImg{ 
     height: fit-content;
