@@ -140,18 +140,19 @@ section{
 
 }
 #full-stack{
-    border-left: 7px solid;
+    border-left: 5px solid;
     border-image: linear-gradient(180deg, lightSalmon, tomato);
     border-image-slice: 1;
 
 }
 #jonior{
-    border-left: 7px solid;
+    border-left: 5px solid;
     border-image: linear-gradient(blue, rgb(0, 225, 255));
     border-image-slice: 1;
 }
 footer{
     text-align: center;
 }
+
 
 
