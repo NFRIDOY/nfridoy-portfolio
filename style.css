@@ -1,17 +1,18 @@
 body{
     font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
     width: 100%;
     height: 100%;
-    background-color: #ffffff;
     border-radius: 0;
+    background-color: #ffffff;
     box-shadow: none;
-
     transition: all 0.5s ease-in-out;
 }
 h1{
     font-size: 50px;
+    margin: 0px;
 }
 h2{
     font-size: 40px;
@@ -22,34 +23,68 @@ p{
 .name-highlight{
     color: orange;
 }
+header {
+    /* background-color: #ffffff; */
+    /* background-image: linear-gradient(270deg, rgb(79, 18, 145), blue, skyblue, green, lightgreen, Yellow, orange,red, white); */
+    /* background-image: linear-gradient(180deg, white, 	#FAF9F6 ); */
+    margin: 0px;
 
+}
+.main-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 7%;
+    margin-top: 3%;
+    padding-bottom: 2%;
+    
+}
+section{
+    /* height: 100%; */
+     height: 700px; /*732px better For this Web [ plz use it when their is "float" */
+     border: 7px solid red;
+}
+.para-text {
+    margin-bottom: 3%;
+}
 .top-banner{
     background-color: rgb(252, 252, 252);
     background-image: url("developer-portfolio/top-banner.png");
     background-repeat: no-repeat;
     /* Commnet it */
-    /*border: 10px solid blue; /*For veiwing [plz commnet after view]*/
+    border: 10px solid rgb(0, 255, 42); /*For veiwing [plz commnet after view]*/
+    height: 910px;
 }
-section{
-    height: 500px; /*732px better For this Web [ plz use it when their is "float"*/
-}
+
 .half-width{
     float: left;
-    width: 40%; /*don't use 50%*/
-    height: 40%;
+    width: 41%; /*don't use 50%*/
+    /* height: 40%; */
     margin-left: 5%;
-    padding-left: 2%;
+    padding-left: 2%; 
+    padding-top: 2%;
 }
+.text1 {
+    height: 40%;
+}
+
 .half-width img{
     color: #f5f5f5;
     width: 80%;
+    height: 80%;
+    margin-left: 7%;
+    margin-top: 5%;
     /*max-height: 500px;*/
-    padding-left: 100px;
-    padding-top: 10px;
+    /* padding-left: 100px;
+    padding-top: 10px; */
     
 }
 #profile-img{ /* doesn't work*/
     border-image-width: 500px;
+    max-height: 110%;
+    width: 90%;
+}
+.pro-img {
+    width: 90% !important;
 }
 .half-width p{
     padding-bottom: 10px;
@@ -61,22 +96,25 @@ section{
     background-image: linear-gradient(90deg, lightSalmon, tomato);
     padding: 10px 20px; /* vertical, Horizental */
     border-radius: 10px;
-    font-weight: 700;
+    font-weight: 700px;
 }
 /*.namediv{
     padding-left: 30%;
     padding-top: 10px;
 }*/
 .mid-banner{
-    padding-top: 100px;
-    padding-left: 0px;
-    height: 500px;
+    /* padding-top: 100px;
+    padding-left: 0px; */
+    height: 930px;
     background-color: rgb(252, 252, 252);
     background-image: url("developer-portfolio/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
     /* Commnet it */
-    /*border: 10px solid blue; /*For veiwing [plz commnet after view]*/
+    border: 10px solid blue; /*For veiwing [plz commnet after view]*/
+}
+#second-img{ /* doesn't work*/
+    width: 90%;
 }
 /*
 .half-width2{
@@ -93,25 +131,28 @@ section{
 }
 .extra-bold{
     font-weight: 900px;
+    text-align: center;
 }
 .single-experience{
     box-shadow: 10px 10px 40px grey; /* Right Down */
     border-radius: 15px;
-    height: 80%;
+    height: 80% !important;
 
 }
 #full-stack{
-    border-left: 7px solid;
+    border-left: 5px solid;
     border-image: linear-gradient(180deg, lightSalmon, tomato);
     border-image-slice: 1;
 
 }
 #jonior{
-    border-left: 7px solid;
+    border-left: 5px solid;
     border-image: linear-gradient(blue, rgb(0, 225, 255));
     border-image-slice: 1;
 }
-.footer-div{
+footer{
     text-align: center;
 }
+
+
 
