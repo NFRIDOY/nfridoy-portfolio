@@ -1,10 +1,118 @@
-body{
-    font-family: 'Roboto', sans-serif;
+* {
+    margin: 0;
+    padding: 0;
 }
-h1{
-    font-size: 50px;
-
+body {
+    font-family: Open Sans;
 }
-.name-highlight{
-    color: orange;
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --org: #fd6e0a;
+    --ban: #fff8f3;
+}
+.text-center{
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+.logo {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.textR {
+    color: var(--org);
+}
+nav {
+    display: flex;
+    padding: 20px 200px;
+    justify-content: center;
+    align-items: center;
+}
+nav > ul > li,
+.btn-hireMe {
+    display: inline;
+    margin-right: 50px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: white;
+}
+.btn-hireMe a {
+    color: white;
+}
+nav > ul {
+    margin-left: auto;
+}
+.btn-hireMe {
+    background-color: var(--org);
+    width: 150px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: none;
+    background: #fd6e0a;
+}
+.header1 {
+    background-image: url("../images/developer.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 90px;
+    /* background-color: red; */
+    height: 100vh;
+    background-color: var(--ban);
+}
+.Banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    margin-left: 200px;
+    
+}
+.bannerDiv{
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 20px 200px; */
+    /* background-image: url("../images/header_bg.png"); */
+    
+}
+.banner1 {
+    /* width: 49%; */
+}
+.bannerText {
+    
+}
+.bannerText h1{
+    color: var(--dark-01, #181818);
+    /* font-family: Open Sans; */
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.BannerImg {
+    
+}
+.titleImg{ 
+    height: fit-content;
+}
+.mainSection {
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 200px;
+}
+.AboutMe {
+    /* border: 1px solid var(--ban); */
+    border: 1px solid red;
+    padding: 120px;
 }
