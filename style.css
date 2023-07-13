@@ -6,6 +6,9 @@
 body {
     font-family: Open Sans;
 }
+a,button {
+    cursor: pointer;
+}
 :root {
     --blue: #1e90ff;
     --white: #ffffff;
@@ -68,24 +71,26 @@ nav > ul {
     background: #fd6e0a;
 }
 .header1 {
-    background-image: url("../images/developer.png");
+    background-image: url("../images/header_bg.png");
+    background-position: bottom right;
     background-repeat: no-repeat;
-    background-position: left;
-    background-size: 90px;
     /* background-color: red; */
     height: 100vh;
     background-color: var(--ban);
 }
 .Banner {
+    background-image: url("../images/developer.png");
+    background-position: left;
+    background-size: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-image: url("../images/header_bg.png");
     background-repeat: no-repeat;
-    background-position: right bottom;
-    margin-left: 200px;
+    height: 100%;
+    /* margin-bottom: 100px; */
     
 }
+
 .bannerDiv{
     /* display: flex; */
     align-items: center;
@@ -96,6 +101,7 @@ nav > ul {
 }
 .banner1 {
     /* width: 49%; */
+    margin-left: 200px;
 }
 .bannerText {
     
@@ -112,7 +118,8 @@ nav > ul {
     
 }
 .proImage {
-    height: 720px;
+    /* height: 720px; */
+    border: 10px solid green;
 }
 .proImage > img {
     height: 100%;
@@ -127,9 +134,4 @@ nav > ul {
     align-items: center;
     justify-content: center;
     padding: 20px 200px;
-}
-.AboutMe {
-    /* border: 1px solid var(--ban); */
-    border: 1px solid red;
-    padding: 120px;
 }
