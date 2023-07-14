@@ -35,6 +35,8 @@ nav {
     padding: 20px 200px;
     justify-content: space-between;
     align-items: center;
+
+    height: 10vh;
 }
 #menuList li,
 .btn-hireMe {
@@ -68,22 +70,45 @@ nav {
     background: #fd6e0a;
 }
 .header {
-    background-color: var(--ban);
     height: 100vh;
+    background-color: var(--ban);
+    
+    
+    /*  */
+    border: 5px solid;
+}
+.header-child{
+    height: 100vh;
+    background-image: url("images/developer.png");
+    background-position: top left;
+    background-repeat: no-repeat;   
+
+    border: 1px solid red;
+}
+.banner {
+    height: 90vh;
+    /* padding-bottom: 100px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+
     background-image: url("images/header_bg.png");
     background-repeat: no-repeat;
     background-position: bottom right;
-    
-    /*  */
-    border: 1px solid;
 }
-.banner {
-    height: 100vh;
-    padding-bottom: 100px;
+.bannerText {
+}
+.bannerImg{
+    /* height: 100vh; */
+    padding: 0px;
+    
     
 }
-.header-child{
-    background-image: url("images/developer.png");
-    background-position: top left;
-    background-repeat: no-repeat;
+
+.bannerImg1 {
+    height: 86%;
+    padding: 0px;
+    /* position: relative;
+    top:11px */
 }
