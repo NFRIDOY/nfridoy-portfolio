@@ -25,7 +25,7 @@ p{
 
 .top-banner{
     background-color: rgb(252, 252, 252);
-    background-image: url("developer-portfolio/top-banner.png");
+    background-image: url("./developer-portfolio/top-banner.png");
     background-repeat: no-repeat;
     /* Commnet it */
     /*border: 10px solid blue; /*For veiwing [plz commnet after view]*/
@@ -87,7 +87,7 @@ section{
     /*padding-left: 2%;*/
 /*}*/
 .experience-area{
-    background-image: url("developer-portfolio/exp-bg.png");
+    background-image: url("./developer-portfolio/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
 }
