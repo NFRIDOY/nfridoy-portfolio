@@ -93,6 +93,7 @@ section{
 }
 .extra-bold{
     font-weight: 900px;
+    text-align: center;
 }
 .single-experience{
     box-shadow: 10px 10px 40px grey; /* Right Down */
