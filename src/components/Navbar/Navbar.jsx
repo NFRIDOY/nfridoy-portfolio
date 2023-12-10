@@ -10,7 +10,16 @@ export default function Navbar() {
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </div>
                     <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-
+                        <li>
+                            <NavLink
+                                to="/"
+                                className={({ isActive, isPending }) =>
+                                    isPending ? "pending" : isActive ? "active" : ""
+                                }
+                            >
+                                Home
+                            </NavLink>
+                        </li>
                         <li>
                             <NavLink
                                 to="/about"
@@ -21,7 +30,7 @@ export default function Navbar() {
                                 About
                             </NavLink>
                         </li>
-                        <li>
+                        {/* <li>
                             <NavLink
                                 to="/blogs"
                                 className={({ isActive, isPending }) =>
@@ -30,7 +39,7 @@ export default function Navbar() {
                             >
                                 Blogs
                             </NavLink>
-                        </li>
+                        </li> */}
                         <li>
                             <NavLink
                                 to="/projects"
@@ -51,7 +60,7 @@ export default function Navbar() {
                                 Skills
                             </NavLink>
                         </li>
-                        
+
                         <li>
                             <button
                                 to="/blogs"
@@ -62,7 +71,7 @@ export default function Navbar() {
                                 Contact Me
                             </button>
                         </li>
-                        <li>
+                        {/* <li>
                             <button
                                 to="/blogs"
                                 className={({ isActive, isPending }) =>
@@ -71,7 +80,7 @@ export default function Navbar() {
                             >
                                 Download My Resume
                             </button>
-                        </li>
+                        </li> */}
                         {/* <li>
                         <details>
                             <summary>Blogs</summary>
@@ -94,6 +103,16 @@ export default function Navbar() {
                 <ul className="menu menu-horizontal px-1">
                     <li>
                         <NavLink
+                            to="/"
+                            className={({ isActive, isPending }) =>
+                                isPending ? "pending" : isActive ? "active" : ""
+                            }
+                        >
+                            Home
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink
                             to="/about"
                             className={({ isActive, isPending }) =>
                                 isPending ? "pending" : isActive ? "active" : ""
@@ -102,7 +121,7 @@ export default function Navbar() {
                             About
                         </NavLink>
                     </li>
-                    <li>
+                    {/* <li>
                         <NavLink
                             to="/blogs"
                             className={({ isActive, isPending }) =>
@@ -111,7 +130,7 @@ export default function Navbar() {
                         >
                             Blogs
                         </NavLink>
-                    </li>
+                    </li> */}
                     <li>
                         <NavLink
                             to="/projects"
