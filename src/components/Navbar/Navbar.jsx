@@ -31,15 +31,15 @@ export default function Navbar() {
                             </NavLink>
                         </li>
                         {/* <li>
-                            <NavLink
-                                to="/blogs"
-                                className={({ isActive, isPending }) =>
-                                    isPending ? "pending" : isActive ? "active" : ""
-                                }
-                            >
-                                Blogs
-                            </NavLink>
-                        </li> */}
+                        <NavLink
+                            to="/blogs"
+                            className={({ isActive, isPending }) =>
+                                isPending ? "pending" : isActive ? "active" : ""
+                            }
+                        >
+                            Blogs
+                        </NavLink>
+                    </li> */}
                         <li>
                             <NavLink
                                 to="/projects"
@@ -71,26 +71,17 @@ export default function Navbar() {
                                 Contact Me
                             </button>
                         </li>
-                        {/* <li>
-                            <button
-                                to="/blogs"
+                        <li>
+                            <a
+                                href="../../assets/resume/nfridoyResume.pdf"
+                                download
                                 className={({ isActive, isPending }) =>
                                     isPending ? "pending" : isActive ? "active" : ""
                                 }
                             >
                                 Download My Resume
-                            </button>
-                        </li> */}
-                        {/* <li>
-                        <details>
-                            <summary>Blogs</summary>
-                            <ul className="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </details>
-                    </li>
-                    <li><a>Item 3</a></li> */}
+                            </a>
+                        </li>
 
                     </ul>
                 </div>
@@ -163,14 +154,15 @@ export default function Navbar() {
                         </button>
                     </li>
                     <li>
-                        <button
-                            to="/blogs"
+                        <a
+                            href="../../assets/resume/nfridoyResume.pdf"
+                            download
                             className={({ isActive, isPending }) =>
                                 isPending ? "pending" : isActive ? "active" : ""
                             }
                         >
                             Download My Resume
-                        </button>
+                        </a>
                     </li>
                     {/* <li>
                         <details>
