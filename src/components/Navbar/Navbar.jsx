@@ -1,4 +1,8 @@
 import { Link, NavLink } from "react-router-dom";
+// const resumeKey = "1SQC9PysOHk8RKhMV2hcQAwaKeY36pNPn"
+// const resumeURL = "https://drive.google.com/u/0/uc?id=1vtovEmlg_RCf93SRHZpb2-37RtCjUhia&export=download" // Old URL
+const resumeURL = "https://drive.google.com/u/0/uc?id=19Aqtc8L2FTj2MEZeKWwpMirthG_6_4np&export=download" // New URL
+// const resumeURL = "1SQC9PysOHk8RKhMV2hcQAwaKeY36pNPn"
 
 
 export default function Navbar() {
@@ -74,7 +78,7 @@ export default function Navbar() {
                         <li>
                             <a
                                 // href="../../assets/resume/nfridoyResume.pdf"
-                                href="https://drive.google.com/u/0/uc?id=1vtovEmlg_RCf93SRHZpb2-37RtCjUhia&export=download"
+                                href={resumeURL}
                                 download
                                 className={({ isActive, isPending }) =>
                                     isPending ? "pending" : isActive ? "active" : ""
@@ -167,7 +171,7 @@ export default function Navbar() {
                     <li>
                         <a
                             // href="../../assets/resume/nfridoyResume.pdf"
-                            href="https://drive.google.com/u/0/uc?id=1vtovEmlg_RCf93SRHZpb2-37RtCjUhia&export=download"
+                            href={resumeURL}
                             download
                             className={({ isActive, isPending }) =>
                                 isPending ? "pending" : isActive ? "active" : ""
