@@ -82,6 +82,16 @@ export default function Navbar() {
                                 Download My Resume
                             </a>
                         </li>
+                        <li>
+                            <button
+                                to="#Contact"
+                                className={({ isActive, isPending }) =>
+                                    isPending ? "pending" : isActive ? "active" : ""
+                                }
+                            >
+                                Hire Me
+                            </button>
+                        </li>
 
                     </ul>
                 </div>
@@ -90,7 +100,7 @@ export default function Navbar() {
                     <span className="text-xl text-neutral ">RIDOY</span>
                 </a>
             </div>
-            <div className="navbar-end hidden lg:flex">
+            <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
                     <li>
                         <NavLink
@@ -145,7 +155,7 @@ export default function Navbar() {
 
                     <li>
                         <button
-                            to="/blogs"
+                            to="#Contact"
                             className={({ isActive, isPending }) =>
                                 isPending ? "pending" : isActive ? "active" : ""
                             }
@@ -163,6 +173,16 @@ export default function Navbar() {
                         >
                             Download My Resume
                         </a>
+                    </li>
+                    <li>
+                        <button
+                            to="#Contact"
+                            className={({ isActive, isPending }) =>
+                                isPending ? "pending" : isActive ? "active" : ""
+                            }
+                        >
+                            Hire Me
+                        </button>
                     </li>
                     {/* <li>
                         <details>

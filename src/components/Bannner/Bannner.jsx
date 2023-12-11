@@ -13,13 +13,13 @@ export default function Bannner() {
                     </div>
                     <div className="p-6 text-center ">
                         <h4 className="block mb-2 font-sans text-2xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-                            MD Noman Faysal Ridoy
+                            Md. Noman Faysal Ridoy
                         </h4>
                         {/* <p
                         className="block font-sans text-base antialiased font-medium leading-relaxed text-transparent bg-clip-text bg-gradient-to-tr from-blue-gray-600 to-blue-gray-400 text-black"> */}
                         <p
                             className='text-black'>
-                            Web Developer
+                            MERN Stack Web Developer
                         </p>
                     </div>
                     <div className="flex justify-center p-6 pt-2 gap-7">
@@ -41,7 +41,7 @@ export default function Bannner() {
                         I'm 
                     </span>
                     <br />
-                    <span className='text-6xl relative left-20'>
+                    <span className='text-6xl relative left-20 font-semibold'>
                         MD NOMAN FAYSAL RIDOY
                     </span>
                 </h1>
