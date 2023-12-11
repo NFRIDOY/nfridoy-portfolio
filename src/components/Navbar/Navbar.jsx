@@ -73,7 +73,8 @@ export default function Navbar() {
                         </li>
                         <li>
                             <a
-                                href="../../assets/resume/nfridoyResume.pdf"
+                                // href="../../assets/resume/nfridoyResume.pdf"
+                                href="https://drive.google.com/u/0/uc?id=1vtovEmlg_RCf93SRHZpb2-37RtCjUhia&export=download"
                                 download
                                 className={({ isActive, isPending }) =>
                                     isPending ? "pending" : isActive ? "active" : ""
@@ -165,7 +166,8 @@ export default function Navbar() {
                     </li>
                     <li>
                         <a
-                            href="../../assets/resume/nfridoyResume.pdf"
+                            // href="../../assets/resume/nfridoyResume.pdf"
+                            href="https://drive.google.com/u/0/uc?id=1vtovEmlg_RCf93SRHZpb2-37RtCjUhia&export=download"
                             download
                             className={({ isActive, isPending }) =>
                                 isPending ? "pending" : isActive ? "active" : ""
