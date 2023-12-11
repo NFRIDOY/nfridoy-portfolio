@@ -8,8 +8,8 @@ export default function MainLayout() {
         <div>
             <Container>
                 <Navbar></Navbar>
-                <Outlet></Outlet>
             </Container>
+            <Outlet></Outlet>
 
         </div>
     )
