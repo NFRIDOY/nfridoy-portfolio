@@ -22,7 +22,7 @@ export default function About() {
                     </SubHeader>
 
                     <Paragraph1>
-                        My fascination with web development began 2017. Since then, I've been on an exciting journey, honing my skills in Javascript and staying on the cutting edge of industry trends. I thrive on tackling challenges and finding innovative solutions that merge functionality with creativity.
+                        My fascination with web development began in 2023. Since then, I've been on an exciting journey, honing my skills in Javascript and staying on the cutting edge of industry trends. I thrive on tackling challenges and finding innovative solutions that merge functionality with creativity.
                     </Paragraph1>
 
                     <SubHeader>
