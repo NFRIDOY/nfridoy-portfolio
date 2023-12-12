@@ -101,12 +101,12 @@ export default function Home() {
                         </section>
                     </Container>
                 </div>
-                {/* <MainHeader>
+                <MainHeader>
                     <div id="#ContactMe">
                         Contact Me
                     </div>
                 </MainHeader>
-                <ContactMe></ContactMe> */}
+                <ContactMe></ContactMe>
             </Container>
         </div>
     )

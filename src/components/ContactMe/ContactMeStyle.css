@@ -1,0 +1,17 @@
+#form {
+    /* background: lightgray; */
+    border: 2px solid black;
+    display: flex ;
+    /* flex-direction: column; */
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+}
+
+#form label {
+    width: 50%;
+}
+#form input {
+    width: 50%;
+}
