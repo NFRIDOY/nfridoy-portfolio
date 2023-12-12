@@ -37,7 +37,7 @@ export default function Projects() {
 
                         </div>
                     </section>
-                    <section className='flex flex-col md:flex-row gap-10'>
+                    <section className='flex flex-col md:flex-row-reverse gap-10'>
                         <div className='p-2 md:w-1/2'>
                             <img src={eventManagementPCMob} alt="" />
                         </div>
