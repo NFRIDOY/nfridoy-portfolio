@@ -35,7 +35,7 @@ export default function Bannner() {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className='hidden md:block'>
                 <h1 className=''>
                     <span className='text-6xl'>
                         I'm 
