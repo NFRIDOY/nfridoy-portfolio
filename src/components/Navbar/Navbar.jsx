@@ -75,18 +75,7 @@ export default function Navbar() {
                                 Contact Me
                             </Link>
                         </li>
-                        <li>
-                            <a
-                                // href="../../assets/resume/nfridoyResume.pdf"
-                                href={resumeURL}
-                                download
-                                className={({ isActive, isPending }) =>
-                                    isPending ? "pending" : isActive ? "active" : ""
-                                }
-                            >
-                                Download My Resume
-                            </a>
-                        </li>
+
                         <li>
                             <a
                                 href="#ContactMe"
@@ -95,6 +84,19 @@ export default function Navbar() {
                                 }
                             >
                                 Hire Me
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                // href="../../assets/resume/nfridoyResume.pdf"
+                                href={resumeURL}
+                                download
+                                className="btn btn-primary"
+                            // className={({ isActive, isPending }) =>
+                            //     isPending ? "pending" : isActive ? "active" : ""
+                            // }
+                            >
+                                My Resume
                             </a>
                         </li>
 
@@ -158,7 +160,7 @@ export default function Navbar() {
                         </NavLink>
                     </li>
 
-                    <li>
+                    {/* <li>
                         <Link
                             to={'#ContactMe'}
                             className={({ isActive, isPending }) =>
@@ -167,7 +169,7 @@ export default function Navbar() {
                         >
                             Contact Me
                         </Link>
-                    </li>
+                    </li> */}
                     <li>
                         <a href="#ContactMe"
                             className={({ isActive, isPending }) =>
@@ -177,18 +179,7 @@ export default function Navbar() {
                             Contact Me
                         </a>
                     </li>
-                    <li>
-                        <a
-                            // href="../../assets/resume/nfridoyResume.pdf"
-                            href={resumeURL}
-                            download
-                            className={({ isActive, isPending }) =>
-                                isPending ? "pending" : isActive ? "active" : ""
-                            }
-                        >
-                            Download My Resume
-                        </a>
-                    </li>
+
                     <li>
                         <button
                             to="#ContactMe"
@@ -198,6 +189,15 @@ export default function Navbar() {
                         >
                             Hire Me
                         </button>
+                    </li>
+                    <li className="h-2">
+                        <a
+                            href={resumeURL}
+                            download
+                            className="btn btn-sm bg-gradient-to-tr to: from-violet-700 via-purple-700 to-red-700 text-white h-fit"
+                        >
+                            My Resume
+                        </a>
                     </li>
                     {/* <li>
                         <details>
