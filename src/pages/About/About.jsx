@@ -14,7 +14,7 @@ export default function About() {
             <Container>
                 <section>
                     <Paragraph1>
-                        Hey there! 👋 I'm {NF}, a passionate MERN stack web developer dedicated to crafting engaging digital experiences. With one year of experience in the ever-evolving world of web development, I've had the privilege of bringing ideas to life through elegant code and intuitive design.
+                        Hey there! 👋 I&apos;m {NF}, a passionate MERN stack developer dedicated to crafting engaging digital experiences. With one year of experience in the ever-evolving world of web development, I&apos;ve had the privilege of bringing ideas to life through elegant code and intuitive design.
                     </Paragraph1>
 
                     <SubHeader>
@@ -22,7 +22,7 @@ export default function About() {
                     </SubHeader>
 
                     <Paragraph1>
-                        My fascination with web development began in 2023. Since then, I've been on an exciting journey, honing my skills in Javascript and staying on the cutting edge of industry trends. I thrive on tackling challenges and finding innovative solutions that merge functionality with creativity.
+                        My fascination with web development began in 2023. Since then, I&apos;ve been on an exciting journey, honing my skills in Javascript and staying on the cutting edge of industry trends. I thrive on tackling challenges and finding innovative solutions that merge functionality with creativity.
                     </Paragraph1>
 
                     <SubHeader>
@@ -30,7 +30,7 @@ export default function About() {
                     </SubHeader>
 
                     <Paragraph1>
-                        Whether it's building responsive websites, optimizing user interfaces for seamless interaction, or diving into the world of Websites, I'm driven by a commitment to deliver high-quality work that exceeds expectations.
+                        Whether it&apos;s building responsive websites, optimizing user interfaces for seamless interaction, or diving into the world of Websites, I&apos;m driven by a commitment to deliver high-quality work that exceeds expectations.
                     </Paragraph1>
 
                     <SubHeader>
@@ -139,13 +139,13 @@ export default function About() {
                     </Paragraph1>
 
                     <SubHeader>
-                        Let's Connect
+                        Let&apos;s Connect
                     </SubHeader>
 
                     <Paragraph1>
-                        When I'm not coding, you'll find me on <Link to={'https://www.linkedin.com/in/nfridoy/'} className="text-blue-500 font-bold">Linkedin</Link>. I'm always up for a chat about new ideas, projects, or anything tech-related! Feel free to reach out at <span className="text-blue-500 font-bold"> nfridoy@gmail.com </span> — I'd love to discuss how we can collaborate and bring your vision to life.
+                        When I&apos;m not coding, you&apos;ll find me on <Link to={'https://www.linkedin.com/in/nfridoy/'} className="text-blue-500 font-bold">Linkedin</Link>. I&apos;m always up for a chat about new ideas, projects, or anything tech-related! Feel free to reach out at <span className="text-blue-500 font-bold"> nfridoy@gmail.com </span> — I&apos;d love to discuss how we can collaborate and bring your vision to life.
 
-                        Thanks for stopping by—I can't wait to connect!
+                        Thanks for stopping by—I can&apos;t wait to connect!
                     </Paragraph1>
 
                 </section>

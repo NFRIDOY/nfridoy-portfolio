@@ -19,7 +19,7 @@ export default function Bannner() {
                         className="block font-sans text-base antialiased font-medium leading-relaxed text-transparent bg-clip-text bg-gradient-to-tr from-blue-gray-600 to-blue-gray-400 text-black"> */}
                         <p
                             className='text-black'>
-                            MERN Stack Web Developer
+                            MERN Stack Developer
                         </p>
                     </div>
                     <div className="flex justify-center p-6 pt-2 gap-7">
@@ -38,7 +38,7 @@ export default function Bannner() {
             <div className='hidden md:block'>
                 <h1 className=''>
                     <span className='text-6xl'>
-                        I'm 
+                        I&apos;m 
                     </span>
                     <br />
                     <span className='text-6xl relative left-20 font-semibold'>
