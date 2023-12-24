@@ -181,14 +181,14 @@ export default function Navbar() {
                     </li>
 
                     <li>
-                        <button
-                            to="#ContactMe"
+                        <Link
+                            to="/ContactMe"
                             className={({ isActive, isPending }) =>
                                 isPending ? "pending" : isActive ? "active" : ""
                             }
                         >
                             Hire Me
-                        </button>
+                        </Link>
                     </li>
                     <li className="h-2">
                         <a
