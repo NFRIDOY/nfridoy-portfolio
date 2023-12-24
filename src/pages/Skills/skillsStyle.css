@@ -13,6 +13,21 @@
     height: 70px;
 }
 
+.skilltype div {
+    border: 1px solid black ;
+    box-shadow: 1px 5px 10px lightgray;
+    padding: 0px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: ; */
+    gap: 0px 8px;
+    
+    /* width: 100px; */
+    height: 70px;
+}
+
 #language div p {
     /* font-variant-caps: small-caps; */
 }
