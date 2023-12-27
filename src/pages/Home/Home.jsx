@@ -7,6 +7,7 @@ import Container from './../../components/Containers/Container';
 import brandShop from '../../assets/images/projects/brandShop.png'
 import eventManagementPCMob from '../../assets/images/projects/eventManagementPCMob.png'
 import jobMarketPCMob from '../../assets/images/projects/jobMarketPCMob.png'
+import Skills from "../Skills/Skills";
 
 
 export default function Home() {
@@ -14,10 +15,7 @@ export default function Home() {
         <div>
             <Container>
                 <Bannner></Bannner>
-                <MainHeader>
-                    Education
-                </MainHeader>
-                <Education></Education>
+                <Skills></Skills>
                 <div>
                     <MainHeader>
                         Projects

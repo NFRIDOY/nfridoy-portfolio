@@ -3,7 +3,8 @@ import Container from "../../components/Containers/Container";
 import MainHeader from "../../components/Headers/MainHeader";
 import SubHeader from "../../components/Headers/SubHeader";
 import Paragraph1 from "../../components/Paragraphs/Paragraph1";
-const NF = "MD Noman Faysal Ridoy"
+import Education from "../../components/Education/Education";
+const NF = "Md Noman Faysal Ridoy"
 
 export default function About() {
     return (
@@ -14,8 +15,13 @@ export default function About() {
             <Container>
                 <section>
                     <Paragraph1>
-                        Hey there! 👋 I&apos;m {NF}, a passionate MERN stack developer dedicated to crafting engaging digital experiences. With one year of experience in the ever-evolving world of web development, I&apos;ve had the privilege of bringing ideas to life through elegant code and intuitive design.
+                        Hey there! 👋 I&apos;m <span className="text-violet-700">{NF}</span>, a passionate MERN stack developer dedicated to crafting engaging digital experiences. With one year of experience in the ever-evolving world of web development, I&apos;ve had the privilege of bringing ideas to life through elegant code and intuitive design.
                     </Paragraph1>
+
+                    <MainHeader>
+                        Education
+                    </MainHeader>
+                    <Education></Education>
 
                     <SubHeader>
                         My Journey
@@ -97,7 +103,7 @@ export default function About() {
                             <a href="https://getbootstrap.com" target="_blank" rel="noreferrer">
                                 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40" />
                             </a>
-                            
+
                             <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer">
                                 <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40" />
                             </a>
