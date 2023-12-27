@@ -9,6 +9,11 @@ import ReactDOM from 'react-dom/client'
 // import App from './App.jsx's
 import './index.css'
 
+/* Bulid & Deploy
+* Bulid: npm run build 
+* Deploy: firebase deploy
+*/
+
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
