@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 export default function Bannner() {
     return (
         <div className="my-10 flex flex-col md:flex-row md:gap-10">
-            <div className='w-1/2'>
+            <div className='w-full md:w-1/2'>
                 <div className="relative flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96">
                     <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-80">
                         <img src={HD1} alt="profile-picture" />

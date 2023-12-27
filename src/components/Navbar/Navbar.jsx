@@ -1,4 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
+import NFRidoy from "../NFRidoy/NFRidoy";
 // const resumeKey = "1SQC9PysOHk8RKhMV2hcQAwaKeY36pNPn"
 // const resumeURL = "https://drive.google.com/u/0/uc?id=1vtovEmlg_RCf93SRHZpb2-37RtCjUhia&export=download" // Old URL
 const resumeURL = "https://drive.google.com/u/0/uc?id=19Aqtc8L2FTj2MEZeKWwpMirthG_6_4np&export=download" // New URL
@@ -102,10 +103,11 @@ export default function Navbar() {
 
                     </ul>
                 </div>
-                <a className="font-black  font-sans  text-xl ">
+                {/* <a className="font-black  font-sans  text-xl ">
                     <span className="text-6xl text-neutral italic ">NF</span>
                     <span className="text-xl text-neutral ">RIDOY</span>
-                </a>
+                </a> */}
+                <NFRidoy></NFRidoy>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">

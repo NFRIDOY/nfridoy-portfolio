@@ -144,7 +144,7 @@ export default function Skills() {
 
             <Container>
                 <Paragraph1>
-                    <p id="language" className="grid grid-cols-4 gap-10  p-4">
+                    <p id="language" className="grid md:grid-cols-4 gap-10  p-4">
                         {/* <div className="skilltype"> */}
                         <div>
                             <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
