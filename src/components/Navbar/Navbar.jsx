@@ -171,7 +171,7 @@ export default function Navbar() {
                         </Link>
                     </li> */}
                     <li>
-                        <a href="#ContactMe"
+                        <a href="/ContactMe"
                             className={({ isActive, isPending }) =>
                                 isPending ? "pending" : isActive ? "active" : ""
                             }

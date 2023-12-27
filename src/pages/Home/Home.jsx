@@ -99,12 +99,7 @@ export default function Home() {
                         </section>
                     </Container>
                 </div>
-                <MainHeader>
-                    <div id="#ContactMe">
-                        Contact Me
-                    </div>
-                </MainHeader>
-                <ContactMe></ContactMe>
+                
             </Container>
         </div>
     )
