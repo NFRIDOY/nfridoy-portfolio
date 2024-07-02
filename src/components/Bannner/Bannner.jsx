@@ -21,8 +21,12 @@ export default function Bannner() {
                             className='text-black'>
                             MERN Stack Developer
                         </p>
+                        <p
+                            className='text-primary mb-0'>
+                            Email: nfridoy@gmail.com
+                        </p>
                     </div>
-                    <div className="flex justify-center p-6 pt-2 gap-7">
+                    <div className="flex justify-center pb-6 pt-0 gap-7">
                         <Link to={'https://www.linkedin.com/in/nfridoy/'} target='_blank'>
                             <FaLinkedin />
                         </Link>

@@ -8,6 +8,7 @@ import brandShop from '../../assets/images/projects/brandShop.png'
 import eventManagementPCMob from '../../assets/images/projects/eventManagementPCMob.png'
 import jobMarketPCMob from '../../assets/images/projects/jobMarketPCMob.png'
 import Skills from "../Skills/Skills";
+import ProjectsContainer from "../../components/ProjectsContainer/ProjectsContainer";
 
 
 export default function Home() {
@@ -21,7 +22,7 @@ export default function Home() {
                         Projects
                     </MainHeader>
                     <Container>
-                        <section className='my-10 '>
+                        {/* <section className='my-10 '>
                             <section className='flex flex-col md:flex-row gap-10'>
                                 <div className='p-2 md:w-1/2'>
                                     <img src={brandShop} alt="" />
@@ -96,10 +97,11 @@ export default function Home() {
                             </section>
 
 
-                        </section>
+                        </section> */}
+                        <ProjectsContainer />
                     </Container>
                 </div>
-                
+
             </Container>
         </div>
     )
