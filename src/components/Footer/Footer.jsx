@@ -31,14 +31,14 @@ export default function Footer() {
                     <FaLinkedin /> */}
                     {/* <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a> */}
                     <div className="flex justify-center p-0 pt-0 gap-10">
-                        <Link to={'https://www.linkedin.com/in/nfridoy/'} target='_blank'>
-                            <FaLinkedin />
+                    <Link to={'https://www.linkedin.com/in/nfridoy/'} target='_blank'>
+                            <FaLinkedin size={30} className='text-[#0077B5]' />
                         </Link>
                         <Link to={'https://github.com/NFRIDOY'} target='_blank'>
-                            <FaGithub />
+                            <FaGithub size={30} className='text-[#fff]' />
                         </Link>
                         <Link to={'https://profiles.topcoder.com/nfridoy'} target='_blank'>
-                            <SiTopcoder />
+                            <SiTopcoder size={30} className='text-[#F69322]' />
                         </Link>
                     </div>
                 </div>

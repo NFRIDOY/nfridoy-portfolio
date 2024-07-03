@@ -28,13 +28,13 @@ export default function Bannner() {
                     </div>
                     <div className="flex justify-center pb-6 pt-0 gap-7">
                         <Link to={'https://www.linkedin.com/in/nfridoy/'} target='_blank'>
-                            <FaLinkedin />
+                            <FaLinkedin size={30} className='text-[#0077B5]' />
                         </Link>
                         <Link to={'https://github.com/NFRIDOY'} target='_blank'>
-                            <FaGithub />
+                            <FaGithub size={30} className='text-[#171515]' />
                         </Link>
                         <Link to={'https://profiles.topcoder.com/nfridoy'} target='_blank'>
-                            <SiTopcoder />
+                            <SiTopcoder size={30} className='text-[#F69322]' />
                         </Link>
                     </div>
                 </div>
