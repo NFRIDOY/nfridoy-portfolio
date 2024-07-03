@@ -6,9 +6,9 @@ import { Link } from 'react-router-dom';
 export default function Bannner() {
     return (
         <div className="my-10 flex flex-col md:flex-row md:gap-10">
-            <div className='w-full md:w-1/2'>
-                <div className="relative flex flex-col text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-96 border-2 ">
-                    <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-lg bg-clip-border rounded-xl h-80 ">
+            <div className='w-full md:w-1/2 flex justify-center'>
+                <div className="relative flex flex-col text-gray-700 bg-white shadow-2xl bg-clip-border rounded-xl w-96 border-2 ">
+                    <div className="relative mx-4 mt-4 overflow-hidden text-gray-700 bg-white shadow-2xl  bg-clip-border rounded-xl h-80 border-t-2 border-l-2 border-r-2 ">
                         <img src={HD1} alt="profile-picture" />
                     </div>
                     <div className="p-6 text-center ">
@@ -18,11 +18,11 @@ export default function Bannner() {
                         {/* <p
                         className="block font-sans text-base antialiased font-medium leading-relaxed text-transparent bg-clip-text bg-gradient-to-tr from-blue-gray-600 to-blue-gray-400 text-black"> */}
                         <p
-                            className='text-black'>
-                            MERN Stack Developer
+                            className='text-black font-extrabold'>
+                            Full Stack Developer
                         </p>
                         <p
-                            className='text-primary mb-0'>
+                            className='text-primary mb-0 font-bold'>
                             Email: nfridoy@gmail.com
                         </p>
                     </div>
@@ -52,6 +52,7 @@ export default function Bannner() {
                 <h2 className='text-xl italic underline my-6'>NF RIDOY</h2>
                 <p className='text-2xl'>
                     Embark on a journey through pixels and code as a web developer! Dive into the art of crafting digital landscapes, where creativity meets technology. From sleek user interfaces to immersive experiences, this role brings websites to life, shaping the online realm. Explore the ever-evolving languages and tools, sculpting the internet of tomorrow. Join the adventure, where innovation and imagination converge in the world of web development!
+                    {/* A Full Stack Developer | MERN | Javascript */}
                 </p>
             </div>
         </div >
