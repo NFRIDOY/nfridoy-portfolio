@@ -9,6 +9,9 @@ import eventManagementPCMob from '../../assets/images/projects/eventManagementPC
 import jobMarketPCMob from '../../assets/images/projects/jobMarketPCMob.png'
 import Skills from "../Skills/Skills";
 import ProjectsContainer from "../../components/ProjectsContainer/ProjectsContainer";
+import Paragraph1 from "../../components/Paragraphs/Paragraph1";
+import { skills } from "../../utils/skills";
+import { Link } from "react-router-dom";
 
 
 export default function Home() {
@@ -16,7 +19,32 @@ export default function Home() {
         <div>
             <Container>
                 <Bannner></Bannner>
-                <Skills></Skills>
+                <div>
+                    <MainHeader>
+                        Skills
+                    </MainHeader>
+                    <Container>
+                        <Paragraph1>
+                            <p id="language" className="grid md:grid-cols-4 gap-10  p-4">
+                                {
+                                    skills?.slice(0, 12)?.map(skill => <>
+                                        <div>
+                                            <a href={skill?.url} target="_blank" rel="noreferrer">
+                                                <img src={skill?.logo} alt={skill?.alt} width="40" height="40" />
+                                            </a>
+                                            <p>
+                                                {skill?.name}
+                                            </p>
+                                        </div>
+                                    </>)
+                                }
+                            </p>
+                            <div>
+                                <Link to={"/skills"} className="btn btn-success">See More</Link>
+                            </div>
+                        </Paragraph1>
+                    </Container>
+                </div>
                 <div>
                     <MainHeader>
                         Projects
