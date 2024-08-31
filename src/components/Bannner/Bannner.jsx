@@ -42,7 +42,7 @@ export default function Bannner() {
             <div className='hidden md:block'>
                 <h1 className=''>
                     <span className='text-6xl'>
-                        I&apos;m 
+                        I&apos;m
                     </span>
                     <br />
                     <span className='text-6xl relative left-20 font-semibold'>
@@ -54,6 +54,13 @@ export default function Bannner() {
                     Embark on a journey through pixels and code as a web developer! Dive into the art of crafting digital landscapes, where creativity meets technology. From sleek user interfaces to immersive experiences, this role brings websites to life, shaping the online realm. Explore the ever-evolving languages and tools, sculpting the internet of tomorrow. Join the adventure, where innovation and imagination converge in the world of web development!
                     {/* A Full Stack Developer | MERN | Javascript */}
                 </p>
+                <div className='flex justify-center'>
+                    <Link to={"https://docs.google.com/forms/d/e/1FAIpQLScBi5gTJGsHBtLo-YbM9WiNiEsjdPdj3DiHyMhrSBSjiOhj4A/viewform"} target='_blank'
+                    className='text-2xl btn btn-success my-10'
+                    >
+                        I want to build a Project
+                    </Link>
+                </div>
             </div>
         </div >
     )

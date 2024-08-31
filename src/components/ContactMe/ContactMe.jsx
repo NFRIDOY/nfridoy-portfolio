@@ -3,11 +3,12 @@ import { useRef } from 'react';
 // import './ContactMeStyle.css'
 import SubHeader from './../Headers/SubHeader';
 import MidHeader from './../Headers/MidHeader';
+import { Link } from 'react-router-dom';
 
 export default function ContactMe() {
 
     const form = useRef();
-    
+
     const sendEmail = (e) => {
         e.preventDefault();
 
@@ -87,6 +88,13 @@ export default function ContactMe() {
                     <div className='w-full'>
                         <input type="submit" value="Send" className='btn btn-primary w-full text-white' />
 
+                    </div>
+                    <div className='flex justify-center'>
+                        <Link to={"https://docs.google.com/forms/d/e/1FAIpQLScBi5gTJGsHBtLo-YbM9WiNiEsjdPdj3DiHyMhrSBSjiOhj4A/viewform"} target='_blank'
+                            className='text-2xl btn btn-success my-10'
+                        >
+                            I want to build a Project
+                        </Link>
                     </div>
                 </form>
             </div>
