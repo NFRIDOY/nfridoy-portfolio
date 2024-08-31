@@ -16,6 +16,17 @@ export default function ProjectsContainer() {
                         <h1 className='text-4xl my-5 font-bold'>
                             Job Market X <a href='https://job-market-x.web.app' className='text-lg text-blue-500' >Website</a>
                         </h1>
+                        <div className='flex gap-4'>
+                            <h1 className='text-2xl my-5 font-bold'>
+                                <span className='text-lg' >GitHub Repository: </span>
+                            </h1>
+                            <h1 className='text-2xl my-5 font-bold'>
+                                <Link to='https://github.com/NFRIDOY/job-market-x-client' target='_blank' className='text-lg text-blue-600' >Client</Link>
+                            </h1>
+                            <h1 className='text-2xl my-5 font-bold'>
+                                <Link to='https://github.com/NFRIDOY/job-market-x-server' target='_blank' className='text-lg text-blue-700' >Server</Link>
+                            </h1>
+                        </div>
                         <p>
                             In this website user can post jobs bid verious types of jobs. Users can also see their job process and payment information.
                         </p>
@@ -43,6 +54,17 @@ export default function ProjectsContainer() {
                         <h1 className='text-4xl my-5 font-bold'>
                             Asset Hexa (Team Project) <a href='https://asset-hexa.web.app/' className='text-lg text-blue-500' >Website</a>
                         </h1>
+                        <div className='flex gap-4'>
+                            <h1 className='text-2xl my-5 font-bold'>
+                                <span className='text-lg' >GitHub Repository: </span>
+                            </h1>
+                            <h1 className='text-2xl my-5 font-bold'>
+                                <Link to='https://github.com/NFRIDOY/Asset-Hexa' target='_blank' className='text-lg text-blue-600' >Client</Link>
+                            </h1>
+                            <h1 className='text-2xl my-5 font-bold'>
+                                <Link to='https://github.com/NFRIDOY/Asset-Hexa-Server' target='_blank' className='text-lg text-blue-700' >Server</Link>
+                            </h1>
+                        </div>
                         <p className='text-base text-gray-700'>
                             This project focuses on effective money management, offering financial guidance, and streamlining investment in businesses. Users have the ability to register accounts, record daily income and expenses, and access transaction histories. Additionally, users can contribute to the community by writing money management blogs, which can be liked and commented on by others. Furthermore, users can showcase their entrepreneurial ventures by adding detailed information about their businesses. All users have the opportunity to invest in these businesses, creating a dynamic investment ecosystem. The project incorporates two distinct roles – admin and guest. Admins hold the authority to manage user accounts, verify blogs, and validate business posts. This dual-role system ensures a secure and controlled environment for financial activities and community engagement.
 
@@ -97,6 +119,17 @@ export default function ProjectsContainer() {
                         <h1 className='text-4xl my-5 font-bold'>
                             NF Technology <a href='https://brand-shop-ed6ff.web.app' className='text-lg text-blue-500' >Website</a>
                         </h1>
+                        <div className='flex gap-4'>
+                            <h1 className='text-2xl my-5 font-bold'>
+                                <span className='text-lg' >GitHub Repository: </span>
+                            </h1>
+                            <h1 className='text-2xl my-5 font-bold'>
+                                <Link to='https://github.com/NFRIDOY/brandshop-client' target='_blank' className='text-lg text-blue-600' >Client</Link>
+                            </h1>
+                            <h1 className='text-2xl my-5 font-bold'>
+                                <Link to='https://github.com/NFRIDOY/brandshop-server' target='_blank' className='text-lg text-blue-700' >Server</Link>
+                            </h1>
+                        </div>
                         <p className='text-base text-gray-700'>
                             This website shows top Technology and Electronics brands
                             In the home page it highlighted some brand name with image
@@ -129,6 +162,17 @@ export default function ProjectsContainer() {
                         <h1 className='text-4xl my-5 font-bold'>
                             Event Management  <a href='https://event-management-69fb5.web.app' className='text-lg text-blue-500' >Website</a>
                         </h1>
+                        <div className='flex gap-4'>
+                            <h1 className='text-2xl my-5 font-bold'>
+                                <span className='text-lg' >GitHub Repository: </span>
+                            </h1>
+                            <h1 className='text-2xl my-5 font-bold'>
+                                <Link to='https://github.com/NFRIDOY/event-management' target='_blank' className='text-lg text-blue-600' >Client</Link>
+                            </h1>
+                            {/* <h1 className='text-2xl my-5 font-bold'>
+                                <Link to='https://github.com/NFRIDOY/job-market-x-server' target='_blank' className='text-lg text-blue-700' >Server</Link>
+                            </h1> */}
+                        </div>
                         <h1 className='text-2xl my-5'>
                             Features
                         </h1>
